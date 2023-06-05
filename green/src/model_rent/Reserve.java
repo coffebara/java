@@ -6,7 +6,7 @@ public class Reserve {
 	public String returnDate;
 
 	public Reserve() {
-
+		// 
 	}
 
 	public Reserve(char store) {

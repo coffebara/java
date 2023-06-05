@@ -6,4 +6,5 @@
  *
  */
 module green {
+	requires java.desktop;
 }
