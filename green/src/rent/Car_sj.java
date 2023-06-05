@@ -1,18 +1,18 @@
-package model_rent;
+package rent;
 import java.util.Scanner;
 
-public class Car2 {
+public class Car_sj {
 	Scanner sc = new Scanner(System.in);
 	public String carNumber;//지장
 	public boolean carRent;
 	public char carType;
 	public int fuel; 
 	
-	public Car2() {
+	public Car_sj() {
 		
 	}
 	
-	public Car2(String carNumber, boolean carRent, char carType, int fuel) {
+	public Car_sj(String carNumber, boolean carRent, char carType, int fuel) {
 		this.carNumber = carNumber;
 		this.carRent = carRent;
 		this.carType = carType;

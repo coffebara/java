@@ -1,4 +1,4 @@
-package model_rent;
+package rent;
 
 public class Reserve {
 	public char store;

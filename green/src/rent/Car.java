@@ -1,4 +1,4 @@
-package model_rent;
+package rent;
 
 import java.util.Random;
 import java.util.Scanner;

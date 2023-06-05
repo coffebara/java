@@ -1,7 +1,7 @@
-package model_rent;
+package rent;
 import java.util.Scanner;
 
-public class Member {
+public class Member_sj {
 	Scanner sc = new Scanner(System.in);
 	private String name;
 	private String phone;
@@ -35,7 +35,7 @@ public class Member {
 		this.payment = sc.nextInt();
 	}
 	public static void main(String[] args) {
-		Member m1 = new Member();
+		Member_sj m1 = new Member_sj();
 		m1.reserve();
 	}
 }
