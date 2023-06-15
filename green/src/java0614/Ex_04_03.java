@@ -44,6 +44,7 @@ public class Ex_04_03 extends JFrame{
 			int x = e.getX();
 			int y = e.getY();
 			la.setLocation(x, y);//해당 컴포넌트가 지정된 좌표로 이동합니다
+
 		}
 		public void mouseReleased(MouseEvent e) {}
 
