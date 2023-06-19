@@ -66,7 +66,7 @@ public class Ex7_2 {
 		deck.shuffle();
 
 		for (int i = 0; i < deck.cards.length; i++)
-			System.out.println(deck.cards[i] + ",");
+			System.out.print(deck.cards[i] + ",");
 
 		System.out.println();
 		System.out.println(deck.pick(0));
