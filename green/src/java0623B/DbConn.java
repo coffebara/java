@@ -1,4 +1,4 @@
-package java0623;
+package java0623B;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
