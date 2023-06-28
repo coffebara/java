@@ -29,7 +29,7 @@ public class AdditionalServlet01 extends HttpServlet{
 			HttpServletResponse response) throws ServletException, IOException {
 // 요청처리,응답처리,예외처리 매개변수로 넣어준것이다
 		int num1 =20;
-		int num2 = 10;
+		int num2 = 10;"my"
 		int add =num1 + num2;
 		PrintWriter out = response.getWriter();
 		out.println("<html><head><title>Addition</title></head>");
