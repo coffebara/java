@@ -42,6 +42,7 @@
 				<!-- 위 선언문에서 정의한 문자열을 표현식으로 출력 -->
 			</h3>
 			<%
+			response.setIntHeader("Refresh", 5);	// 접속시간 자동갱신
 			//날짜 객체를 생성해 현재 시간 날짜 표시
 			Date day = new java.util.Date(); //날짜 객체 생성
 			String am_pm; //오전 오후 분별을 위한 문자열 변수 선언

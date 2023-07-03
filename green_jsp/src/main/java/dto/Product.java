@@ -107,8 +107,4 @@ public class Product implements Serializable {
 		this.condition = condition;
 	}
 
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
-
 }
