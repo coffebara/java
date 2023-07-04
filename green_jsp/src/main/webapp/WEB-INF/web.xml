@@ -14,7 +14,7 @@
   	<param-name>INIT_PARAM</param-name>
   	<param-value>web.xml에 저장한 초기화 매개변수</param-value>
   </context-param>
-  
+ <!--  오라클DB 접속 -->
   <context-param>
   	<param-name>OracleDriver</param-name>
   	<param-value>oracle.jdbc.OracleDriver</param-value>
@@ -31,11 +31,11 @@
   	<param-name>OraclePwd</param-name>
   	<param-value>1234</param-value>
   </context-param>
-  
+ <!--   세션 유효기간 -->
   <session-config>
   	<session-timeout>20</session-timeout>
   </session-config>
-  
+
   <filter>
   	<filter-name>SetCharEncoding</filter-name>
   	<filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
