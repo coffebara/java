@@ -231,6 +231,6 @@ public class BoardDAO extends JDBConnect {
 			System.out.println("게시물 삭제 중 예외 발생");
 			e.printStackTrace();
 		}
-		return result; // 결과 반환
+		return result; // 결과 반환 
 	}
 }
