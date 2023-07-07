@@ -12,7 +12,7 @@
  //서버 경로로 설정되어 잇습니다
  //이 경로는 이클립스가 애플리케이션을 실행할 때마다 임시로 생성되며,
  //서버가 중지되면 해당 경로와 그 하위 파일은 모두 삭제됩니다
-/*  String saveDirectory = "C:\\Uploads"; */
+/* String saveDirectory = "C:\\Uploads"; */
  //저장할 디렉터리   
  System.out.println("Directory Path: " + saveDirectory);
  out.println(saveDirectory);

@@ -58,4 +58,10 @@
     <param-name>PAGES_PER_BLOCK</param-name>
     <param-value>5</param-value>
   </context-param>
+  
+ <!-- 웹소켓 채팅을 위한 설정 --> 
+ <context-param>
+ 	<param-name>CHAT_ADDR</param-name>
+ 	<param-value>ws://localhost:8081/green_jsp</param-value>
+ </context-param>
 </web-app>
